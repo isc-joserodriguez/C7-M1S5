@@ -1,4 +1,3 @@
-console.log('Externo!');
 //alert('Externo!');
 
 /*
@@ -16,29 +15,14 @@ const fechaNacMaria = "15/08/1990"
 console.log(nombre);
 console.log(edad);
 console.log(nombre);
-console.log(edad);
-console.log(nombre);
-console.log(edad);
-console.log(nombre);
-console.log(edad);
 
-nombre = "Roberto";
-edad = 60;
+// String (cadenas)
+var cadena = "Cadena 'Blablabla'";
+var cadena2 = 'Cadena "chida"';
+var cadena3 = `Cadena`;
+var cadena4;
 
-console.log(nombre);
-console.log(edad);
-
-nombre = "1515";
-
-edad = 20;
-
-console.log(nombre);
-console.log(typeof nombre);
-console.log(edad);
-
-nombre = 1515
-
-console.log(nombre);
-console.log(typeof nombre);
-console.log(edad);
-console.log(fechaNacMaria);
+console.log(cadena)
+console.log(cadena2)
+console.log(cadena3)
+console.log(cadena4)
