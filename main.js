@@ -50,3 +50,9 @@ console.log(typeof infinito)
 console.log(otra)
 console.log(typeof otra)
 
+//Boolean
+var bool1 = false;
+var bool2 = true;
+
+console.log(bool1);
+console.log(bool2);
