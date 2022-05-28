@@ -144,3 +144,37 @@ var n2 = 15;
 if (!(n1 - n2)) {
     console.log('Tus números son iguales');
 }
+
+
+// switch
+var elemento = "mario";
+switch (elemento) {
+    case "mario":
+        console.log('El valor es "mario"')
+    //break;  // ! Si no se pone el brake, ejecuta todo hasta encontrar otro breake (o hasta salir)
+    case 15:
+        console.log('El valor es 15')
+        break;
+    case "maria":
+        console.log('El valor es "maria"')
+        break;
+    case true:
+        console.log('El valor es true')
+        break;
+    default:
+        console.log('No aplica')
+}
+
+
+if (elemento == "mario") {
+    console.log('El valor es "mario"')
+}
+if (elemento == 15) {
+    console.log('El valor es 15')
+}
+if (elemento == "maria") {
+    console.log('El valor es "maria"')
+}
+if (elemento == true) {
+    console.log('El valor es true')
+}
