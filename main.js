@@ -178,3 +178,24 @@ if (elemento == "maria") {
 if (elemento == true) {
     console.log('El valor es true')
 }
+
+
+// FOR
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+// while
+var j = 0;
+while (j < 10) {
+    console.log(j);
+    j++;
+}
+
+// do-while
+var j = 0;
+do {
+    console.log(j);
+    j++;
+} while (j < 10)
+
