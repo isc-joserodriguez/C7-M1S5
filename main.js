@@ -221,7 +221,7 @@ function pares(n) {
             contador++;
         }
     }
-} 
+}
 */
 
 function pares(n) {
@@ -232,4 +232,13 @@ function pares(n) {
     }
 }
 
-pares(10)
+pares(10);
+
+
+function suma(n1, n2){
+    return n1+n2;
+}
+
+var res = suma(1,5);
+
+console.log(res);
